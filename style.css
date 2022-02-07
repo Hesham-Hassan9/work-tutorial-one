@@ -1,0 +1,281 @@
+/* override browser default */
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* height: 100%; */
+}
+/* use viewport-relative units to cover page fully */
+body {
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin-left: 150px;
+  /* border: 2px solid white; */
+  width: 650px;
+  margin-top: 90px;
+  font-family: system-ui;
+  /* font-weight: bold; */
+  line-height: 500%;
+  font-family: 'Changa One', cursive;
+}
+h1 {
+  font-size: 150px;
+  color: #ffca03;
+  margin-left: 5px;
+}
+h2 {
+  font-size: 70px;
+}
+.color {
+  color: white;
+}
+p {
+  /* border: 2px solid white; */
+  font-size: 25px;
+  width: 550px;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 25px;
+}
+button {
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  margin-left: 280px;
+  margin-top: 50px;
+}
+.vl {
+  border-left: 900px solid #2f0103;
+  height: 350%;
+  width: 400%;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  bottom: 0px;
+  left: 0px;
+  margin-left: -25%;
+  margin-top: 25%;
+  z-index: -1;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(45deg);
+  
+}
+.vl::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.vl2 {
+  border-left: 500px solid #2f0103;
+  height: 350%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 100px;
+  left: 0px;
+  margin-left: 60%;
+  z-index: -1;
+  overflow: hidden;
+  -ms-transform: rotate(20deg);
+  transform: rotate(45deg);
+ 
+}
+.vl2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.dot {
+  height: 150px;
+  width: 150px;
+  margin-left: 125%;
+  margin-top: -100px;
+  background-color: #ffca03;
+  border-radius: 50%;
+  line-height: 250%;
+  display: inline-block;
+}
+.do {
+  float: right;
+}
+.OFF {
+  /* float: left; */
+  width: 20px;
+  height: 50px;
+  /* margin-top: 25%; */
+  font-size: 40px;
+  margin-left: 47px;
+  margin-top: 35px;
+}
+.OFF::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.inner-circle {
+  display: inline-block; /* add this */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  margin-left: 70%;
+  bottom: 15px;
+  border-width: 2px;
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.fo {
+  margin-left: 13%;
+  margin-top: 25px;
+  font-size: 25px;
+}
+a:link {
+  text-decoration: none;
+}
+
+#orangeBox {
+  /* background: #f90; */
+  color: #fff;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: -15%;
+  top: 25%;
+  bottom: 25%;
+}
+
+#orangeBox1 {
+  /* background: #f90; */
+  color: #fff;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 35%;
+  margin-top: 5%;
+  top: 25%;
+  bottom: 25%;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(-29deg);
+}
+
+.v{
+  /* border-left: 500px solid #2f0103; */
+  height: 9%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0px;
+  left: 0px;
+  margin-left: 50%;
+  margin-top: 20%;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(-45deg);
+  background: repeating-linear-gradient(
+  45deg,
+  #2f0103,
+  #2f0103 10px,
+  #ffca03 15px,
+  #ffca03 10px
+);
+}
+.line{
+  width: 112px;
+  height: 35px;
+  border-bottom: 3px solid #ffca03;
+  position: absolute;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(-47deg);
+  margin-left: 17.1%;
+  }
+  .line1{
+    width: 60px;
+    height: .0005px;
+    border-bottom: 1px solid #ffca03;
+    position: absolute;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(-47deg);
+    margin-left: 20.9%;
+    top: 100px;
+    }
+    .line2{
+      width: 112px;
+      height: 55px;
+      border-bottom: 3px solid #ffca03;
+      position: absolute;
+      -ms-transform: rotate(20deg); /* IE 9 */
+      transform: rotate(-47deg);
+      margin-left: 17.5%;
+      margin-top: -49px;
+      }
+      .line3{
+        width: 35px;
+        height: 55px;
+        border-bottom: 1px solid #ffca03;
+        position: absolute;
+        -ms-transform: rotate(20deg); /* IE 9 */
+        transform: rotate(-47deg);
+        margin-left: 18.5%;
+        margin-top: -49px;
+        }
+        .line4{
+          width: 112px;
+          height: 55px;
+          border-bottom: 3px solid #ffca03;
+          position: absolute;
+          -ms-transform: rotate(20deg); /* IE 9 */
+          transform: rotate(-47deg);
+          margin-left: 7.5%;
+          margin-top: 119px;
+          }
+          .line5{
+            width: 60px;
+            height: 50px;
+            border-bottom: 1px solid #ffca03;
+            position: absolute;
+            -ms-transform: rotate(20deg); /* IE 9 */
+            transform: rotate(-47deg);
+            margin-left: 10%;
+            margin-top: 119px;
+            }
+            .line6{
+              width: 50px;
+              height: 50px;
+              border-bottom: 1px solid #ffca03;
+              position: absolute;
+              -ms-transform: rotate(20deg); /* IE 9 */
+              transform: rotate(-47deg);
+              margin-left: 8.9%;
+              margin-top: 119px;
+              }
+/* .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  } */
+
+/* Hide scrollbar for IE, Edge add Firefox */
+/* .scrollbar-hidden { */
+/* -ms-overflow-style: none; */
+/* scrollbar-width: none; Firefox */
+/* } */
